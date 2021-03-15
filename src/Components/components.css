@@ -37,7 +37,7 @@
 .state {
   border: 8px solid #282c34;
   background-color: #282c34;
-  opacity: 90%;
+  /* opacity: 90%; *CRA bundles to 1% */
   border-radius: 6px;
   color: #61dafb;
   display: flex;
