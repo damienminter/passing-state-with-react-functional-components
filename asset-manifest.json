@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/passing-state-with-react-functional-components/static/css/main.e8d6b230.chunk.css",
+    "main.js": "/passing-state-with-react-functional-components/static/js/main.279ca4e5.chunk.js",
+    "main.js.map": "/passing-state-with-react-functional-components/static/js/main.279ca4e5.chunk.js.map",
+    "runtime-main.js": "/passing-state-with-react-functional-components/static/js/runtime-main.dc424ee9.js",
+    "runtime-main.js.map": "/passing-state-with-react-functional-components/static/js/runtime-main.dc424ee9.js.map",
+    "static/js/2.94a2cf7b.chunk.js": "/passing-state-with-react-functional-components/static/js/2.94a2cf7b.chunk.js",
+    "static/js/2.94a2cf7b.chunk.js.map": "/passing-state-with-react-functional-components/static/js/2.94a2cf7b.chunk.js.map",
+    "index.html": "/passing-state-with-react-functional-components/index.html",
+    "static/css/main.e8d6b230.chunk.css.map": "/passing-state-with-react-functional-components/static/css/main.e8d6b230.chunk.css.map",
+    "static/js/2.94a2cf7b.chunk.js.LICENSE.txt": "/passing-state-with-react-functional-components/static/js/2.94a2cf7b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/passing-state-with-react-functional-components/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc424ee9.js",
+    "static/js/2.94a2cf7b.chunk.js",
+    "static/css/main.e8d6b230.chunk.css",
+    "static/js/main.279ca4e5.chunk.js"
+  ]
+}
