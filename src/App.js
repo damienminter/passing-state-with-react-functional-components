@@ -21,12 +21,48 @@ function App() {
       </header>
       <nav>
         <ul className="Navbar">
-          <li onClick={() => setMenu(1)}>Prop Drilling</li>
-          <li onClick={() => setMenu(2)}>Lifting State Up</li>
-          <li onClick={() => setMenu(3)}>Spread Operator</li>
-          <li onClick={() => setMenu(4)}>Rest Operator</li>
-          <li onClick={() => setMenu(5)}>Composition</li>
-          <li onClick={() => setMenu(6)}>Context</li>
+          <li onClick={() => setMenu(1)}>
+            {menu === 1 ? (
+              <strong className="Active">Prop Drilling</strong>
+            ) : (
+              <strong>Prop Drilling</strong>
+            )}
+          </li>
+          <li onClick={() => setMenu(2)}>
+            {menu === 2 ? (
+              <strong className="Active">Lifting State Up</strong>
+            ) : (
+              <strong>Lifting State Up</strong>
+            )}
+          </li>
+          <li onClick={() => setMenu(3)}>
+            {menu === 3 ? (
+              <strong className="Active">Spread Operator</strong>
+            ) : (
+              <strong>Spread Operator</strong>
+            )}
+          </li>
+          <li onClick={() => setMenu(4)}>
+            {menu === 4 ? (
+              <strong className="Active">Rest Operator</strong>
+            ) : (
+              <strong>Rest Operator</strong>
+            )}
+          </li>
+          <li onClick={() => setMenu(5)}>
+            {menu === 5 ? (
+              <strong className="Active">Composition</strong>
+            ) : (
+              <strong>Composition</strong>
+            )}
+          </li>
+          <li onClick={() => setMenu(6)}>
+            {menu === 6 ? (
+              <strong className="Active">Context</strong>
+            ) : (
+              <strong>Context</strong>
+            )}
+          </li>
         </ul>
       </nav>
       <main className="App-body">

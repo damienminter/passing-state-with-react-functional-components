@@ -34,11 +34,14 @@
 
 ul {
   list-style: none;
-  margin: 0.5rem;
+  margin: 1px 0 0 0;
+  background-color: #282c34;
 }
 
 li {
-  padding: 1em;
+  padding: 0.6rem 1rem;
+  color: #61dafb;
+  font-variant-caps: petite-caps;
 }
 
 li:hover {
@@ -46,11 +49,16 @@ li:hover {
   cursor: pointer;
 }
 
+.Active {
+  color: orange;
+}
+
 .App-body {
   display: flex;
   flex-direction: row;
   min-height: 90vh;
   justify-content: space-around;
+  
 }
 
 .App-link {
