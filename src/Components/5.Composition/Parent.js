@@ -16,10 +16,7 @@ export default function Parent() {
         </div>
       </div>
       <Child>
-        <GreatGrandchild
-          state={state}
-          setState={() => setState("Great Grandchild")}
-        />
+        <GreatGrandchild state={state} setState={setState} />
       </Child>
     </div>
   );
