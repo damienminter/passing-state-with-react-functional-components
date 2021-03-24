@@ -1,6 +1,9 @@
 import { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Medium from "./images/Medium.png";
+import MediumText from "./images/MediumText.png";
+import GitHub from "./images/Github.png";
 import ExampleContainer1 from "./Components/1.PropDrilling/ExampleContainer";
 import ExampleContainer2 from "./Components/2.LiftingStateUp/ExampleContainer";
 import ExampleContainer3 from "./Components/3.SpreadOperator/ExampleContainer";
@@ -13,10 +16,36 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <div>
-          <p className="Title">Passing State</p>
-          <p className="Subtitle">Using React functional components</p>
+        <div className="Title-container">
+          <img src={logo} className="App-logo" alt="logo" />
+          <div>
+            <p className="Title">Passing State</p>
+            <p className="Subtitle">Using React functional components</p>
+          </div>
+        </div>
+        <div className="Logo-container">
+          <a
+            href="https://medium.com/p/c2eab87ef98/edit"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="Medium"
+              src={Medium}
+              alt="Read the accompanying article on Medium"
+            ></img>
+          </a>
+          <a
+            href="https://github.com/damienminter/passing-state-with-react-functional-components"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="Github"
+              src={GitHub}
+              alt="Find the code on GitHub"
+            ></img>
+          </a>
         </div>
       </header>
       <nav>
@@ -73,6 +102,20 @@ function App() {
         {menu === 5 && <ExampleContainer5 />}
         {menu === 6 && <ExampleContainer6 />}
       </main>
+      <div className="Code-container">
+        <p>Code tutorial on</p>
+        <a
+          href="https://medium.com/p/c2eab87ef98/edit"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="MediumText"
+            src={MediumText}
+            alt="Read on Medium"
+          ></img>
+        </a>
+      </div>
     </div>
   );
 }

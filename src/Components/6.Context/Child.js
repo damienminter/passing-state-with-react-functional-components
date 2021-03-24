@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Grandchild from "./Grandchild";
 
-export default function Child(props) {
+export default function Child() {
   const [moreState, setMoreState] = useState("");
   return (
     <div className="component child">

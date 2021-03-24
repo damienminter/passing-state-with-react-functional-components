@@ -1,7 +1,7 @@
 .example-container {
   background-color: white;
   padding: 1rem;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 .component {
@@ -48,6 +48,29 @@
   justify-content: center;
 }
 
+.instructions {
+  border: 8px solid #282c34;
+  background-color: #282c34;
+  border-radius: 10px;
+  color: #61dafb;
+  display: flex;
+  height: 50px;
+  width: 98%;
+  margin: auto;
+  margin-top: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
 h5 {
   font-size: 2.5rem;
+}
+
+h3 {
+  color: #282c34;
+}
+
+.underline {
+  font: message-box;
+  color: orange;
 }

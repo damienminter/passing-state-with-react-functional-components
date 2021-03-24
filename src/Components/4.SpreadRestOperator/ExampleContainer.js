@@ -7,9 +7,15 @@ export default function ExampleContainer() {
     <div className="example-container">
       <h2>Prop Drilling with Spread and Rest Operator</h2>
       <p>
-        Using the ...spread and ...rest Operator's to pass down the props easily
+        Using the ...spread and ...rest operator to seperate out multiple states
       </p>
       <Parent />
+      <div className="instructions">
+        <h4>
+          Child and Grandchild share state while the ...rest of the state is
+          passed between Parent and Great Grandchild
+        </h4>
+      </div>
     </div>
   );
 }
